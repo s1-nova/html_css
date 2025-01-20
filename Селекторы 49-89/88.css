@@ -1,0 +1,16 @@
+.num1 p:first-of-type {
+	color: red;
+}
+.num1 h2:last-of-type {
+	color: red;
+}
+
+.num2 h2:nth-of-type(2) {
+	color: red;
+}
+.num2 h2:nth-last-of-type(2) {
+	color: red;
+}
+.num3 h2:only-of-type {
+	color: red;
+}

@@ -1,0 +1,551 @@
+#elem {
+	width: 200px;
+    height: 200px;
+    color: rgb(126, 137, 235);
+	background-color: rgb(126, 137, 235); 
+}
+#elem1 {
+	width: 300px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+	background-color: rgb(77, 238, 153)
+    
+     
+}
+#elem2 {
+	border-width: 5px;
+	border-style: solid;
+	border-color: blue;
+	width: 300px;
+	height: 200px;
+}
+#elem3 {
+	border-width: 5px;
+	border-style: dotted;
+	border-color: red;
+	width: 300px;
+	height: 200px;
+}
+#elem4 {
+	border-width: 2px;
+	border-style: dashed;
+	border-color: orange;
+	width: 300px;
+	height: 200px;
+}
+#elem5 {
+	border-width: 10px;
+	border-style: double;
+	border-color: blue;
+	width: 300px;
+	height: 200px;
+}
+#elem01 {
+    border: 1px solid red;
+    width: 300px;
+	height: 200px;
+}
+#elem02 {
+    border: 2px dotted blue;
+    width: 300px;
+	height: 200px;
+}
+#elem03{
+    border: 3px dashed green;
+    width: 300px;
+	height: 200px;
+}
+#elem04{
+    border: 5px double orange;
+    width: 300px;
+	height: 200px;
+}
+#elem05{
+    border-left: 3px solid orange;
+    border-right: 3px solid green;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid red;
+    width: 300px;
+	height: 200px;
+}
+#elem06{
+    border-left: 3px solid red;
+    border-right: 3px dotted green;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    width: 300px;
+	height: 200px;
+}
+#elem07 {
+	width: 200px;
+	height: 200px;
+	border: 1px solid green;
+	border-radius: 30px;
+}
+#elem08 {
+	width: 200px;
+	height: 200px;
+	background-color: #4dee99;
+	border-radius: 30px;
+}
+#elem09 {
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	border: 1px solid green;
+}
+#elem001 {
+	width: 200px;
+	height: 200px;
+	border: 1px solid green;
+	border-radius: 10px 30px 50px 70px;
+}
+#elem002 {
+	width: 200px;
+	height: 200px;
+	border: 1px solid green;
+	border-radius: 10px 30px;
+}
+#elem003{
+	width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 10px 30px 20px;
+}
+#elem004 {
+	width: 100px;
+	height: 100px;
+	border: 1px solid green;
+	border-radius: 50%;
+}
+body {
+	background: url("bg.png");
+} 
+#good ul {
+	list-style-type: square;
+}
+#good0 ul {
+	list-style-type: circle;
+}
+#good1 ul {
+	list-style-type: none;
+}
+#good2 ol {
+	list-style-type: lower-alpha;
+}
+#good3 ol {
+	list-style-type: upper-alpha;
+}
+#good4 ol {
+	list-style-type: lower-greek;
+}
+#good5 ol {
+	list-style-type: decimal-leading-zero;
+}
+
+
+
+#parent {
+	width: 400px;
+	border: 1px dashed blue;
+	
+}
+
+#child {
+	height: 300px;
+	border: 1px solid orange;
+	margin: 50px;
+}
+
+#parent1 {
+	width: 400px;
+	border: 1px dashed blue;
+	
+}
+
+#child1 {
+	
+	border: 1px dashed green;
+	margin: 25px;
+}
+#dad1 {
+	height: 200px;
+	border: 1px solid red;
+	margin: 25px;
+}
+#red {
+	width: 200px;
+	border: 1px solid red;
+}
+#green {
+	margin-top:    50px; /* сверху */
+	margin-right:  50px; /* справа */
+	margin-bottom: 100px; /* снизу */
+	margin-left:   50px; /* слева */
+	
+	height: 100px;
+	border: 1px solid green;
+}
+#red1 {
+	width: 200px;
+	border: 1px solid red;
+}
+#green1 {
+	margin-top:    50px; /* сверху */
+	margin-right:  25px; /* справа */
+	margin-bottom: 50px; /* снизу */
+	margin-left:   25px; /* слева */
+	
+	height: 100px;
+	border: 1px solid green;
+}
+#red2 {
+	width: 200px;
+	border: 1px solid red;
+}
+#green2 {
+	margin-top:    20px; /* сверху */
+	margin-right:  70px; /* справа */
+	margin-bottom: 20px; /* снизу */
+	margin-left:   70px; /* слева */
+	
+	height: 100px;
+	border: 1px solid green;
+}
+
+#margin0 #parent {
+	width: 200px;
+	border: 1px solid orange;
+}
+#margin0 #child {
+	height: 50px;
+	border: 1px dashed blue;
+	margin: 25px 50px 100px 10px;
+}
+#margin1 #parent {
+	width: 200px;
+	border: 1px solid orange;
+}
+#margin1 #child {
+	height: 50px;
+	border: 1px dashed blue;
+	margin: 100px 50px;
+}
+#margin2 #parent {
+	width: 200px;
+	border: 1px solid orange;
+}
+#margin2 #child {
+	height: 50px;
+	border: 1px dashed blue;
+	margin: 25px 50px;
+}
+
+#margin3 #parent {
+	width: 200px;
+	border: 1px solid orange;
+}
+#margin3 #child {
+	height: 50px;
+	border: 1px dashed blue;
+	margin: 200px 50px 30px;
+}
+#margin4 #parent {
+	width: 400px;
+	border: 1px solid orange;
+}
+#margin4 #child {
+	height: 50px;
+	border: 1px dashed blue;
+	margin: 30px 100px 50px;
+}
+#padding0 #covid {
+	padding-top:    60px; /* сверху */
+	padding-right:  50px; /* справа */
+	padding-bottom: 60px; /* снизу */
+	padding-left:   50px; /* слева */
+	
+	width: 200px;
+	border: 1px solid red;
+	text-align: justify;
+}
+
+#padding #covid {
+	padding-top:    20px; /* сверху */
+	padding-right:  20px; /* справа */
+	padding-bottom: 20px; /* снизу */
+	padding-left:   20px; /* слева */
+	
+	width: 500px;
+	border: 1px solid green;
+	text-align: justify;
+}
+#padding1 #covid {
+	padding-top:    10px; /* сверху */
+	padding-right:  10px; /* справа */
+	padding-bottom: 10px; /* снизу */
+	padding-left:   10px; /* слева */
+	margin-left: 50px;
+	margin-top: 30px;
+	width: 300px;
+	border: 1px solid red;
+	text-align: justify;
+}
+
+#padding2 #covid {
+	padding-top:    50px; /* сверху */
+	padding-right:  25px; /* справа */
+	padding-bottom: 80px; /* снизу */
+	padding-left:   25px; /* слева */
+	
+	width: 200px;
+	border: 1px solid red;
+	text-align: justify;
+}
+
+#padding3 #covid {
+	padding: 10px 20px 30px 40px;
+	width: 300px;
+	border: 1px solid red;
+	text-align: justify;
+}
+#padding4 #covid {
+	padding: 60px 30px;
+	width: 300px;
+	border: 1px solid red;
+	text-align: justify;
+}
+#padding5 #covid {
+	padding: 10px 20px 40px;
+	width: 300px;
+	border: 1px solid red;
+	text-align: justify;
+}
+
+#num0 p{
+	display: inline;
+	
+}
+#num0 a{
+	display: block;
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+}
+#num div {
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+	display: inline-block;
+	
+}
+
+#num1 .parent {
+	border: 1px solid red;
+	width: 400px;
+}
+
+#num1 .child {
+	height: 100px;
+	width: 100px;
+	border: 1px solid green;
+	margin: 10px auto;
+}
+#num1 .child1 {
+	height: 100px;
+	width: 200px;
+	border: 1px solid green;
+	margin: 10px auto;
+}
+#num1 .child2 {
+	height: 100px;
+	width: 300px;
+	border: 1px solid green;
+	margin: 10px auto;
+}
+#num2 .parent {
+	padding: 10px 0;
+	border: 1px solid red;
+	text-align: center;
+
+}
+#num3 .parent {
+	padding: 10px 0;
+	border: 1px solid red;
+	text-align: right;
+	padding-right: 20px;
+	
+}
+#num4 .parent {
+	padding: 10px 0;
+	border: 1px solid red;
+	text-align: center;
+}
+#num4 .child {
+	padding: 10px;
+	border: 1px solid green;
+	display: inline-block;
+	margin: 5px;
+}
+
+#num5 .parent {
+	padding: 10px 0;
+	border: 1px solid red;
+	text-align: right;
+	padding-right: 20px;
+}
+#num5 .child {
+	padding: 10px;
+	border: 1px solid green;
+	display: inline-block;
+	margin-right: 20px;
+}
+#num6 .parent {
+	padding: 10px 0;
+	border: 1px solid red;
+	text-align: right;
+}
+#num6 .child {
+	width: 100px;
+	padding: 10px;
+	border: 1px solid green;
+	display: inline-block;
+	text-align: center;
+}
+#num7 .parent{
+	display: flex; 
+	width: 900px;
+	height: 400px;
+	border: 1px solid red;
+	margin:  auto;	
+}
+#num7 .child {
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+}
+#num8 .parent {
+	display: flex;
+	width: 900px;
+	border: 1px solid red;
+	margin: auto;
+}
+#num8 .child {
+	width: 120px;
+	height: 100px;
+	border: 1px solid green;
+}
+#num9 .parent	{
+	display: flex;
+	border: 1px solid red;
+}
+#num9 .child {
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+}
+#num10 .parent	{
+	display: inline-flex;
+	border: 1px solid red;
+}
+#num10 .child {
+	width: 110px;
+	height: 60px;
+	border: 1px solid green;
+}
+#num11 .parent	{
+	display: inline-flex;
+	border: 1px solid red;
+	padding: 20px;
+}
+#num11 .child {
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+}
+#num12 .parent	{
+	display: inline-flex;
+	border: 1px solid red;
+	
+}
+#num12 .child {
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+	margin: 30px;
+}
+#num13 .parent	{
+	border: 1px solid red;
+	display: flex;
+	justify-content: center;
+	height: 400px;
+	width: 900px;
+	margin: auto;
+	
+}
+#num13 .child {
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+}
+#num14 .parent	{
+	border: 1px solid red;
+	display: flex;
+	justify-content: space-between;
+	height: 200px;
+	width: 900px;
+	margin: auto;
+	
+}
+#num14 .child {
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+}
+#num15 .parent	{
+	border: 1px solid red;
+	display: flex;
+	justify-content: space-around;
+	height: 200px;
+	width: 900px;
+	margin: auto;
+	
+}
+#num15 .child {
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+}
+#num16 .parent	{
+	border: 1px solid red;
+	display: flex;
+	justify-content: space-evenly;
+	height: 200px;
+	width: 900px;
+	margin: auto;
+	
+}
+#num16 .child {
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

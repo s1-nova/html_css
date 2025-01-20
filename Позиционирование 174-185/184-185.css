@@ -1,0 +1,89 @@
+#pos3 #elem1 {
+	width: 50px;
+	height: 50px;
+    background-color: #FF8888;
+    z-index: 2;
+    position: absolute;
+	top: 100px;
+	left: 50px;
+	
+}
+#pos3 #elem2 {
+	position: absolute;
+	top: 130px;
+	left: 80px;
+	z-index: 3;
+	width: 50px;
+	height: 50px;
+    background-color: #7E89EB;
+}
+#pos3 #elem3 {
+	position: absolute;
+	top: 160px;
+	left: 110px;
+    background-color: #4DEE99;
+	z-index: 1;
+	width: 50px;
+	height: 50px;
+	
+}
+
+#pos4 #elem1 {
+	width: 50px;
+	height: 50px;
+    background-color: #FF8888;
+    z-index: 3;
+    position: absolute;
+	top: 400px;
+	left: 50px;
+	
+}
+#pos4 #elem2 {
+	position: absolute;
+	top: 430px;
+	left: 80px;
+	z-index: 2;
+	width: 50px;
+	height: 50px;
+    background-color: #7E89EB;
+}
+#pos4 #elem3 {
+	position: absolute;
+	top: 460px;
+	left: 110px;
+    background-color: #4DEE99;
+	z-index: 1;
+	width: 50px;
+	height: 50px;
+	
+}
+
+#pos5 #elem1 {
+	width: 50px;
+	height: 50px;
+    background-color: #FF8888;
+    
+    position: absolute;
+	top: 700px;
+	left: 50px;
+	
+}
+#pos5 #elem2 {
+	position: absolute;
+	top: 730px;
+	left: 80px;
+	z-index: -1;
+	width: 50px;
+	height: 50px;
+    background-color: #7E89EB;
+}
+#pos5 #elem3 {
+	position: absolute;
+	top: 760px;
+	left: 110px;
+    background-color: #4DEE99;
+	
+	width: 50px;
+	height: 50px;
+	
+}

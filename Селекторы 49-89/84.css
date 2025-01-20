@@ -1,0 +1,20 @@
+a.zzz {
+	color: red;
+}
+a.zzz:hover {
+	text-decoration: none;
+}
+
+#block a.zzz {
+	color: blue;
+}
+#block a.zzz:hover {
+	text-decoration: none;
+}
+
+.block a.zzz {
+	color: orangered;
+}
+.block a.zzz:hover {
+	text-decoration: none;
+}

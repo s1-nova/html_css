@@ -1,0 +1,17 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+
+}
+h2 {
+    font-size: 40px;
+    font-weight: normal;
+    
+}
+p {
+	font: italic bold 40px/60px Arial;
+    
+    text-indent: 50px;
+
+}
+

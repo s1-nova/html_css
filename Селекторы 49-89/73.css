@@ -1,0 +1,13 @@
+#elem + li{
+    color: red;
+}
+.elemm + li{
+    color: red;
+} 
+
+#ellem ~ li{
+    color: red;
+}
+main > * {
+    color: red;
+}

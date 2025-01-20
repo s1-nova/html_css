@@ -1,0 +1,9 @@
+.num1 li:not(.elem){
+    color: red;
+}
+.num2 li:not(:first-child){
+    color: red;
+}
+.num3 li:not(:first-child, :last-child){
+    color: red;
+}

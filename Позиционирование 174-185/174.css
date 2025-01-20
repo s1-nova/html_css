@@ -1,0 +1,115 @@
+#pos0 #elem1 {
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+
+    position: absolute;
+	top: 50px;
+	left: 50px;
+	
+}
+#pos0 #elem2 {
+	position: absolute;
+	top: 120px;
+	left: 120px;
+	
+	width: 50px;
+	height: 50px;
+	border: 1px solid blue;
+}
+#pos0 #elem3 {
+	position: absolute;
+	top: 190px;
+	left: 190px;
+	
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+
+#pos1 #elem1 {
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+
+    position: absolute;
+	top: 300px;
+	left: 50px;
+	
+}
+#pos1 #elem2 {
+	position: absolute;
+	top: 300px;
+	left: 120px;
+	
+	width: 50px;
+	height: 50px;
+	border: 1px solid blue;
+}
+#pos1 #elem3 {
+	position: absolute;
+	top: 300px;
+	left: 190px;
+	
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+}
+#pos2 #elem1 {
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+
+    position: absolute;
+	top: 400px;
+	left: 50px;
+	
+}
+#pos2 #elem2 {
+	position: absolute;
+	top: 430px;
+	left: 80px;
+	
+	width: 50px;
+	height: 50px;
+	border: 1px solid blue;
+}
+#pos2 #elem3 {
+	position: absolute;
+	top: 460px;
+	left: 110px;
+	
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+}
+#pos3 #elem1 {
+	width: 50px;
+	height: 50px;
+    background-color: #FF8888;
+
+    position: absolute;
+	top: 600px;
+	left: 50px;
+	
+}
+#pos3 #elem2 {
+	position: absolute;
+	top: 630px;
+	left: 80px;
+	
+	width: 50px;
+	height: 50px;
+    background-color: #7E89EB;
+}
+#pos3 #elem3 {
+	position: absolute;
+	top: 660px;
+	left: 110px;
+    background-color: #4DEE99;
+	
+	width: 50px;
+	height: 50px;
+	
+}

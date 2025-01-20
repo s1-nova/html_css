@@ -1,0 +1,48 @@
+#elem1 {
+	color: red;
+}
+#elem2 {
+	color: green;
+}
+#elem3 {
+	color: blue;
+}
+#block{
+    color: red;
+	font-family: Arial;
+}
+.text{
+    font-size: 30px;
+
+}
+ #elem h2{
+    color: red;
+ }
+ #elem .text{
+    color:blue;
+ }
+ #elemm p.text {
+    color: green;
+ }
+ #ellem li.text {
+    color: green;
+ }
+
+ .eee.zzz.ccc {
+	color: red;
+}
+.bbb.zzz{
+    color: red;
+}
+h2.bbb.zzz{
+    color: red;
+}
+#elem0.bb {
+	color: red;
+}
+#elem0.bb.zz {
+	color: red;
+}
+h2#elem.bbb {
+	color: red;
+}

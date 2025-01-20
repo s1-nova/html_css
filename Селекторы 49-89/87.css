@@ -1,0 +1,37 @@
+#n1 li:first-child{
+    color:red;
+}
+#n1 li:last-child{
+    color:green;
+}
+
+.num5 li:nth-child(3) {
+	color: red;
+}
+.num4 li:nth-child(even) {
+	color: green;
+}
+.num4 li:nth-child(odd) {
+	color: red;
+}
+.num6 li:nth-child(3n) {
+	color: red;
+}
+.num7 li:nth-last-child(2) {
+	color: red;
+}
+.num8 li:only-child{
+    color: red;
+}
+.num9 li:empty {
+	border: 1px solid blue;
+	line-height: 1.5;
+	
+	width: 100px;
+}
+.num9 li {
+	border: 1px solid red;
+	line-height: 1.5;
+	
+	width: 100px;
+}

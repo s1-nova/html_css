@@ -1,0 +1,21 @@
+p {
+    text-align:  justify;
+    width: 400px;
+}
+h1 {
+	color: #c6f500;
+}
+h2 {
+	color: RGB(0,250,0);
+}
+h3 {
+	color: red;
+}
+
+
+th {
+	text-align: left;
+}
+table {
+	width: 400px;
+}
